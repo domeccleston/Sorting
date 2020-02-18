@@ -33,10 +33,15 @@ def merge_sort(arr):
     right = merge_sort(arr[mid_idx:end_idx])
     return merge(left, right)
 
-
-# STRETCH: implement an in-place merge sort algorithm
+# Can't figure this one out sorry!
 def merge_in_place(arr, start, mid, end):
     # TO-DO
+    start_right = mid + 1
+
+    if arr[mid] <= arr[start_right]:
+        return
+    
+    while
 
     return arr
 
